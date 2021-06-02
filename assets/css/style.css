@@ -24,6 +24,11 @@
 /*--------------------------------------------------------------
 1. Typography
 --------------------------------------------------------------*/
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+} */
 body {
     color: #595959;
     font-family: 'Open Sans', sans-serif;
@@ -5317,7 +5322,6 @@ a:active {
 }
 
 .tm-hero-section.tm-style1 {
-    width: 100%;
     height: 810px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6991,7 +6995,7 @@ a:active {
 
 /*Modal*/
 .tm-modal {
-    width: 500px;
+    width: 100%;
     margin: auto;
     background-color: #013162;
     padding: 45px 60px;
