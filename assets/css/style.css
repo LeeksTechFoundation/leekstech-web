@@ -5317,6 +5317,7 @@ a:active {
 }
 
 .tm-hero-section.tm-style1 {
+    width: 100%;
     height: 810px;
     display: -webkit-box;
     display: -ms-flexbox;

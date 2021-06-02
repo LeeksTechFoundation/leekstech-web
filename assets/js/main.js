@@ -56,6 +56,8 @@
 		contactForm();
 		new WOW().init();
 		$(".js-video-button").modalVideo();
+		hn();
+
 	});
 
 	$(window).on('resize', function() {
@@ -355,7 +357,7 @@
 	            				"&msg=" + msg;
 	            $.ajax({
 	                type: "POST",
-	                url: "assets/php/mail.php",
+	                url: "#",
 	                data: values,
 	                success: function() {
 	                    $('#name').val('');
@@ -413,7 +415,7 @@
 	--------------------------------------------------------------*/
 if ($.exists('#tm-if-expired')) {
 	// Set the date we're counting down to tm-if-expired
-	var countDownDate = new Date("Nov 5, 2019 15:37:25").getTime();
+	var countDownDate = new Date("Nov 5, 2021 15:37:25").getTime();
 
 	// Update the count down every 1 second
 	var x = setInterval(function() {
@@ -444,6 +446,10 @@ if ($.exists('#tm-if-expired')) {
 	}, 1000);
 }
 
+function hn(){
+	$("#tm-signup").modal("show");
+	// alert(2);
+  }
 
 $('[data-bgimage]').each(function () {
 	var imageUrl = $(this).data('bgimage');
