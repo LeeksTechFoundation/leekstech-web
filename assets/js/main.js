@@ -80,7 +80,7 @@
 	}
 
 	jQuery(function ($) {
-		hn()
+		// hn()
 		// Use $() without fear of conflicts.
 	});
 
